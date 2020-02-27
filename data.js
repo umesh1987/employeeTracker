@@ -49,13 +49,10 @@ function questionsPromt() {
         type: "list",
         name: "toDoList",
         message: "What would you like to do?",
-        choices: ["Add department.",
-            "Assign new role.",
-            "Add new employee.",
+        choices: [
             "View department.",
             "View employee role.",
             "view employee.",
-            "Remove employee",
             "Exit"
         ]
 
@@ -124,13 +121,13 @@ function questionsPromt() {
 }
 
 /*
-"Add department.",
-"Assign new role.",
-"Add new employee.",
+
+
+
 "View department.",
 "View employee role.",
 "view employee.",
-"Remove employee",
+
 "Exit"
 */
 
